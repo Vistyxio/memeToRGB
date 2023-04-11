@@ -3,6 +3,15 @@
 
 # 注意
 
+## 依赖
+opencv_core450.dll
+
+opencv_highgui450.dll
+
+opencv_imgcodecs450.dll
+
+opencv_imgproc450.dll
+
 ## 一定要二值化
 
 7梯度和8Canny边缘检测会有反色的效果，应配合1二值化b使用，来将反色的效果消除
